@@ -13,7 +13,7 @@ function SingelPost() {
   const [post, setPost] = useState({});
   const [title, setTitle] = useState("");
   const [des, setDes] = useState("");
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://safe-harbor-49395.herokuapp.com/images/";
   const { user } = useContext(Context);
   const [updateMode, setUpdateMode] = useState(false);
 

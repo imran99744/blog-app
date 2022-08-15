@@ -3,7 +3,7 @@ import "./Post.css";
 import { Link } from "react-router-dom";
 
 function Post({ post }) {
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://safe-harbor-49395.herokuapp.com/images/";
 
   return (
     <div className="post">
